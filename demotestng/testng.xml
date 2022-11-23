@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Test">
+  <test thread-count="5" name="Funtional Test">
+    <classes>
+      <class name="ui.verifytitle"/>
+      <class name="ui.logintest"/>
+      <class name="ui.verifytitleandtext"/>
+      <class name="ui.groupdemo"/>
+    </classes>
+  </test> <!-- Funtional Test -->
+</suite> <!-- UI Test -->
